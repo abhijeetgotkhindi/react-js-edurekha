@@ -5,6 +5,8 @@ function enquiriesReducer(state = [], action){
     switch(action.type){
         case SAVE_ENQUIRY:
             return [ ...state, action.payload];
+        default:
+            return state;
     }
     return state;
 }
