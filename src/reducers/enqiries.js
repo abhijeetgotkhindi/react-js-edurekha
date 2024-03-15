@@ -1,6 +1,6 @@
 import { SAVE_ENQUIRY } from '../actions/types';
 
-export default function enquiriesReducer(state = [], action){
+function enquiriesReducer(state = [], action){
 
     switch(action.type){
         case SAVE_ENQUIRY:
@@ -8,3 +8,5 @@ export default function enquiriesReducer(state = [], action){
     }
     return state;
 }
+
+export default enquiriesReducer;
