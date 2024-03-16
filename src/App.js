@@ -22,7 +22,7 @@ function App() {
           redirect: 'follow'
       };
 
-    fetch("http://akgitsolutions.in.net/json_server/db.json", requestOptions)
+    fetch("https://akgitsolutions.in.net/json_server/db.json", requestOptions)
       .then((response) => response.json())
       .then((result) => setCourses(result))
       .catch((error) => console.log("error", error));
