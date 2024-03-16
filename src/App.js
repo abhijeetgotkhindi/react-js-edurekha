@@ -8,16 +8,15 @@ import Enquiries from './components/Enquiries';
 
 function App() {
   const [courses, setCourses] = useState([]);
-  const getData = () => {
-      var requestOptions = {
-          method: 'GET',
-          mode: 'cors',
-          redirect: 'follow'
-      };
+   const getData = () => {
+    var requestOptions = {
+      method: "GET",
+      redirect: "follow",
+    };
 
-    fetch("https://raw.githubusercontent.com/abhijeetgotkhindi/react-js-edurekha/main/json_server/db.json", requestOptions)
+    fetch("http://localhost:8001/enquiries", requestOptions)
       .then((response) => response.json())
-      .then((result) => setCourses(result))
+      .then((result) => setenquiryList(result))
       .catch((error) => console.log("error", error));
   };
 
