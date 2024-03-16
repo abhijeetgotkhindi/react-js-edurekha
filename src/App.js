@@ -9,12 +9,20 @@ import Enquiries from './components/Enquiries';
 function App() {
   const [courses, setCourses] = useState([]);
   const getData = () => {
-    var requestOptions = {
-      method: "GET",
-      redirect: "follow",
-    };
+      var myHeaders = new Headers();
+      myHeaders.append("User-Agent", "Apidog/1.0.0 (https://apidog.com)");
+      myHeaders.append("Accept", "*/*");
+      myHeaders.append("Host", "akgitsolutions.in.net");
+      myHeaders.append("Connection", "keep-alive");
 
-    fetch("http://localhost:8000/courses", requestOptions)
+      var requestOptions = {
+          method: 'GET',
+          mode: 'cors',
+          headers: myHeaders,
+          redirect: 'follow'
+      };
+
+    fetch("http://akgitsolutions.in.net/json_server/db.json", requestOptions)
       .then((response) => response.json())
       .then((result) => setCourses(result))
       .catch((error) => console.log("error", error));
