@@ -1,0 +1,75 @@
+{
+	
+    "courses": [
+        {
+            "id": 1,
+            "name": "JavaScript Fundamentals",
+            "instructor": "John Doe",
+            "likes": 23454,
+            "url": "https://i.ibb.co/YBtYMsb/graphic-tablet-10053045.png"
+        },
+        {
+            "id": 2,
+            "name": "React Basics",
+            "instructor": "Jane Smith",
+            "likes": 93454,
+            "url": "https://i.imghippo.com/files/6fLgW1706609425.png"
+        },
+        {
+            "id": 3,
+            "name": "HTML Complete syllabus",
+            "instructor": "Mike Johnson",
+            "likes": 25401,
+            "url": "https://i.imghippo.com/files/lvFnc1706609507.png"
+        },
+        {
+            "id": 4,
+            "name": "CSS BootCamp",
+            "instructor": "Emily Davis",
+            "likes": 54234,
+            "url": "https://i.imghippo.com/files/ChEs41706609565.png"
+        },
+        {
+            "id": 5,
+            "name": "Advance Java",
+            "instructor": "Chris Brown",
+            "likes": 45423,
+            "url": "https://i.ibb.co/nr5n8gZ/java-919854.png"
+        },
+        {
+            "id": 6,
+            "name": "SQL from zero to Hero",
+            "instructor": "Sara Miller",
+            "likes": 45454,
+            "url": "https://i.ibb.co/d0BwhPY/database-4248443.png"
+        },
+        {
+            "id": 7,
+            "name": "C++ STL ",
+            "instructor": "Robert White",
+            "likes": 25434,
+            "url": "https://i.ibb.co/Mn08zTd/c-6132222.png"
+        },
+        {
+            "id": 8,
+            "name": "Python Fundamentals",
+            "instructor": "Sophia Lee",
+            "likes": 45234,
+            "url": "https://i.ibb.co/NSVkm4H/snakes-381601.png"
+        },
+        {
+            "id": 9,
+            "name": "UX/UI Design Principles in CSS",
+            "instructor": "Daniel Taylor",
+            "likes": 84454,
+            "url": "https://i.imghippo.com/files/ChEs41706609565.png"
+        },
+        {
+            "id": 10,
+            "name": "Blockchain Basics with Java",
+            "instructor": "Olivia Robinson",
+            "likes": 65454,
+            "url": "https://i.ibb.co/nr5n8gZ/java-919854.png"
+        }
+    ]
+}

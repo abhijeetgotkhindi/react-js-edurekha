@@ -1,0 +1,88 @@
+{
+  "enquiries": [
+    {
+      "id": "9b73",
+      "name": "Abhijeet Gotkhindi",
+      "email": "abhijeet.gotkhindi@gmail.com",
+      "course": "JavaScript Fundamentals by John Doe",
+      "message": "Details Please"
+    },
+    {
+      "id": "f133",
+      "name": "Abhijeet Gotkhindi",
+      "email": "abhijeet.gotkhindi@gmail.com",
+      "course": "JavaScript Fundamentals",
+      "message": "ascac"
+    },
+    {
+      "id": "1450",
+      "name": "Abhijeet Gotkhindi",
+      "email": "abhijeet.gotkhindi@gmail.com",
+      "course": "HTML Complete syllabus",
+      "message": "Test"
+    },
+    {
+      "id": "9174",
+      "name": "Abhijeet Gotkhindi",
+      "email": "abhijeet.gotkhindi@gmail.com",
+      "course": "Advance Java",
+      "message": "ascas"
+    },
+    {
+      "id": "3b68",
+      "name": "Abhijeet Gotkhindi",
+      "email": "akgitsolutions@gmail.com",
+      "course": "React Basics",
+      "message": "scadc"
+    },
+    {
+      "id": "0821",
+      "name": "Abhijeet Gotkhindi",
+      "email": "abhijeet.gotkhindi@gmail.com",
+      "course": "CSS BootCamp",
+      "message": "acacv"
+    },
+    {
+      "id": "0420",
+      "name": "Abhijeet Gotkhindi",
+      "email": "abhijeet.gotkhindi@gmail.com",
+      "course": "Blockchain Basics with Java",
+      "message": "Scac"
+    },
+    {
+      "id": "3270",
+      "name": "Abhijeet Gotkhindi",
+      "email": "abhijeet.gotkhindi@gmail.com",
+      "course": "JavaScript Fundamentals",
+      "message": "acasc"
+    },
+    {
+      "id": "ae7f",
+      "name": "Abhijeet Gotkhindi",
+      "email": "abhijeet.gotkhindi@gmail.com",
+      "course": "JavaScript Fundamentals",
+      "message": "acasc qqqqqqqqqqqqqqqqqq"
+    },
+    {
+      "id": "8a91",
+      "name": "Abhijeet Gotkhindi",
+      "email": "abhijeet.gotkhindi@gmail.com",
+      "course": "C++ STL ",
+      "message": "AScwEVWarba"
+    },
+    {
+      "id": "eb9d",
+      "name": "Abhijeet Gotkhindi",
+      "email": "abhijeet.gotkhindi@gmail.com",
+      "course": "React Basics",
+      "message": "dgvsdv"
+    },
+    {
+      "id": "4594",
+      "name": "ADADAD",
+      "email": "abhijeet.gotkhindi@gmail.com",
+      "course": "React Basics",
+      "message": "scaSc"
+    }
+  ]
+}
