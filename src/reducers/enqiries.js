@@ -7,6 +7,5 @@ function enquiriesReducer(state = [], action){
         default:
             return state;
     }
-    return state;
 }
 export default enquiriesReducer;
