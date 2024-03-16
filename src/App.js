@@ -8,15 +8,15 @@ import Enquiries from './components/Enquiries';
 
 function App() {
   const [courses, setCourses] = useState([]);
-   const getData = () => {
+  const getData = () => {
     var requestOptions = {
       method: "GET",
       redirect: "follow",
     };
 
-    fetch("http://localhost:8001/enquiries", requestOptions)
+    fetch("http://localhost:8000/courses", requestOptions)
       .then((response) => response.json())
-      .then((result) => setenquiryList(result))
+      .then((result) => setCourses(result))
       .catch((error) => console.log("error", error));
   };
 
